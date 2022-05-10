@@ -5,6 +5,9 @@
     "esModuleInterop": true,                              
     "forceConsistentCasingInFileNames": true,            
     "strict": false,                                      
-    "skipLibCheck": true             
+    "skipLibCheck": true,
+    
+    // Para fazer os modules customizados serem aplicados tambem 
+    "typeRoots": ["./src/@types", "node_modules/@types"]             
   }
 }
